@@ -24,6 +24,7 @@ const BottomModal = ({
   <Modal
     modalAnimation={new SlideAnimation({
       slideFrom: 'bottom',
+      useNativeDriver: true
     })}
     {...restProps}
     style={StyleSheet.flatten([styles.container, style])}
